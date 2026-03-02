@@ -1,6 +1,9 @@
 # BANCO DE DADOS II
 * ***CURSO:*** TADS IFPR-Foz 
-* ***PROFESSOR:*** Alcione Benacchio
+* ***PROFESSOR:*** Alcione Benacchio & Itamar Pena Nieradka
+
+Professor
+    Itamar Pena Nieradka
 * ***SEMESTRE:*** 3º
 * ***HORA AULA:*** 80h
 * ***HORA RELOGIO:*** 67h
