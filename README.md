@@ -1,11 +1,11 @@
 # BANCO DE DADOS II
-* ***CURSO:*** TADS IFPR-Foz 
-* ***PROFESSOR:*** Alcione Benacchio & Itamar Pena Nieradka
-* ***SEMESTRE:*** 3º
-* ***HORA AULA:*** 80h
-* ***HORA RELOGIO:*** 67h
+* **CURSO:** TADS IFPR-Foz 
+* **PROFESSOR:** Alcione Benacchio & Itamar Pena Nieradka
+* **SEMESTRE:** 3º
+* **HORA AULA:** 80h
+* **HORA RELOGIO:** 67h
 
-* **Tecnologias: PostgreSQL, PgAdmin**
+- **Banco de Dados:** PostgreSQL, PgAdmin
 
 ### Objetivo: 
 Aprofundar o conhecimento em banco de dados abordando os diversos
