@@ -5,6 +5,8 @@
 * ***HORA AULA:*** 80h
 * ***HORA RELOGIO:*** 67h
 
+* **Tecnologias: PostgreSQL, PgAdmin**
+
 ### Objetivo: 
 Aprofundar o conhecimento em banco de dados abordando os diversos
 aspectos de SGBD relacionais, como gerenciamento de transações, controle de
