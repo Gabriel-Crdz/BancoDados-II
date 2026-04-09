@@ -5,7 +5,7 @@
 * **HORA AULA:** 80h
 * **HORA RELOGIO:** 67h
 
-* ![DOCS AULAS](https://docs.google.com/document/d/1OhMnvWHXKIe5ENwaXXcuKM96oEXiXvRjjrKhmHgKXwI/edit?tab=t.0)
+* [DOCS AULAS](https://docs.google.com/document/d/1OhMnvWHXKIe5ENwaXXcuKM96oEXiXvRjjrKhmHgKXwI/edit?tab=t.0)
 
 - **Banco de Dados:** PostgreSQL, PgAdmin
 
