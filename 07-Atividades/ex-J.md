@@ -11,8 +11,8 @@ where the rental company has clients. **Do not repeat the name of the city.**
 
 ### customers
 
-| Column | Type |
-|--------|------|
+| Column  | Type    |
+|---------|---------|
 | id (PK) | numeric |
 | name    | varchar |
 | street  | varchar |
@@ -24,8 +24,8 @@ where the rental company has clients. **Do not repeat the name of the city.**
 
 ### customers
 
-| id | name                       | street                         | city          |
-|----|----------------------------|--------------------------------|---------------|
+| id | name                       | street                         | city           |
+|----|----------------------------|--------------------------------|----------------|
 | 1  | Giovanna Goncalves Oliveira | Rua Mato Grosso                | Canoas        |
 | 2  | Kauã Azevedo Ribeiro        | Travessa Ibiá                  | Uberlândia    |
 | 3  | Rebeca Barbosa Santos       | Rua Observatório Meteorológico | Salvador      |
