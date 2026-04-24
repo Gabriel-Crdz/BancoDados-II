@@ -1,0 +1,106 @@
+# Stored Functions(Funções Armazenadas)
+
+## Estrutura Basica
+
+```sql
+CREATE OR REPLACE FUNCTION nome_funcao(parametros)
+RETURNS tipo AS $$ -- Tipo do return
+DECLARE
+   -- variáveis
+BEGIN
+   -- lógica
+   RAISE NOTICE '%', variavel; -- Forma de mostra mensagem/erros no sql(Opcional)
+   RETURN valor;
+END;
+$$ LANGUAGE plpgsql; -- Linguagem sql usada
+```
+
+### Variáveis (DECLARE)
+
+```sql
+DECLARE
+   idade INTEGER;
+   nome TEXT;
+   salario NUMERIC := 1000;
+```
+
+### Parâmetros
+
+```sql
+CREATE FUNCTION soma(a INTEGER, b INTEGER)
+RETURNS INTEGER AS $$
+BEGIN
+   RETURN a + b;
+END;
+$$ LANGUAGE plpgsql;
+```
+
+**Chamada:** `SELECT soma(2, 3);`
+
+---
+
+## IF / ELSE
+
+```sql
+CREATE FUNCTION verifica_idade(idade INTEGER)
+RETURNS TEXT AS $$
+BEGIN
+   IF idade >= 18 THEN
+       RETURN 'Maior de idade';
+   ELSE
+       RETURN 'Menor de idade';
+   END IF;
+END;
+$$ LANGUAGE plpgsql;
+```
+
+### Versão com ELSIF:
+
+```sql
+IF idade < 12 THEN
+   RETURN 'Criança';
+ELSIF idade < 18 THEN
+   RETURN 'Adolescente';
+ELSE
+   RETURN 'Adulto';
+END IF;
+```
+
+---
+
+## WHILE
+
+```sql
+CREATE FUNCTION contador()
+RETURNS INTEGER AS $$
+DECLARE
+   i INTEGER := 1;
+BEGIN
+   WHILE i <= 5 LOOP
+       i := i + 1;
+   END LOOP;
+
+   RETURN i;
+END;
+$$ LANGUAGE plpgsql;
+```
+
+---
+
+## FOR
+
+```sql
+CREATE FUNCTION soma_loop()
+RETURNS INTEGER AS $$
+DECLARE
+   total INTEGER := 0;
+BEGIN
+   FOR i IN 1..5 LOOP
+       total := total + i;
+   END LOOP;
+
+   RETURN total;
+END;
+$$ LANGUAGE plpgsql;
+```
+
